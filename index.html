@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Cerita Bergambar - DIGITAL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/Lingga_cover.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_01.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_02.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_03.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_04.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_05.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_06.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_07.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_08.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_09.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Desk_09.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_10.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_11.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_12.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Desk_12.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_13.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_14.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Desk_14.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_15.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Desk_15.jpeg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_16.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_17.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/Lingga_18.png" alt=""></div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </div>
+
+    <div class="center-screen">
+        <div class="button-container">
+            <a href="https://goo.gl/maps/o7nvQdKcCPD7BB8G6" target="_blank">
+                <button class="custom-button" id="location-button">
+                    Lokasi.1 Kolam Arus Owabong
+                </button>
+            </a>
+        </div>
+        <div class="button-container">
+            <a href="https://goo.gl/maps/ameio62fPxPAKbUs7" target="_blank">
+                <button class="custom-button" id="location-button">
+                    Lokasi.2 WaterBoom Owabong
+                </button>
+            </a>
+        </div>
+        <div class="button-container">
+            <a href="https://goo.gl/maps/MkBxrT2aoQuuZrtw5" target="_blank">
+                <button class="custom-button" id="location-button">
+                    Lokasi.3 Goa Dada Lawa
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Get the button element
+        // const locationButton = document.getElementById('location-button');
+
+        // // Add a click event listener to the button
+        // locationButton.addEventListener('click', () => {
+        //     // Display an alert when the button is clicked
+        //     alert('Owabong : '), ('Telaga');
+        // });
+    </script>
+</body>
+
+</html>

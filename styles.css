@@ -70,14 +70,14 @@ h1 {
  @media (max-width: 600px) {
     /* Adjust margin-right for mobile screens */
     .container {
-        margin-top: -200px;
+        margin-top: -500px;
     }
     .custom-button {
         font-size: 10px;
         border-radius: 10px;
         width: 100px;
         height: 40px;
-        margin-right: 5px;
-        margin-top: -200px;
+        margin-right: 10px;
+        margin-top: -500px;
     }
 }

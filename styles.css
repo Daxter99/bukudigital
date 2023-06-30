@@ -66,3 +66,18 @@ h1 {
   .custom-button:hover {
     background-color: #2dd4bf;
   }
+
+ @media (max-width: 600px) {
+    /* Adjust margin-right for mobile screens */
+    .container {
+        margin-top: -200px;
+    }
+    .custom-button {
+        font-size: 10px;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        margin-right: 5px;
+        margin-top: -200px;
+    }
+}

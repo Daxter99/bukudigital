@@ -71,6 +71,8 @@ h1 {
     /* Adjust margin-right for mobile screens */
     .container {
         margin-left: 50px;
+        width: 100%;
+        height: 100vh;
     }
     .custom-button {
         font-size: 10px;

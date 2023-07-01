@@ -70,7 +70,7 @@ h1 {
  @media (max-width: 600px) {
     /* Adjust margin-right for mobile screens */
     .container {
-        margin-top: -400px;
+        
     }
     .custom-button {
         font-size: 10px;
